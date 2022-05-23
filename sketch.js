@@ -1,6 +1,6 @@
 //stating the global variables
 var w = screen.width; //the screen width
-var h = screen.height; //the screen height
+var h = screen.height - 40; //the screen height with some give for the tab
 
 function setup() {
   createCanvas(w, h);
@@ -11,7 +11,7 @@ function draw() {
 }
 
 //making the background look like paper
-function paper () {
+function paper() {
   background(235);
   strokeWeight(0.5);
   
@@ -25,4 +25,9 @@ function paper () {
     }
     line(0, h/14 + i* h/26.95, w, h/14 + i* h/26.95)
   }
+}
+
+//all the pages (I think im being smart)
+function startPage() {
+  
 }
