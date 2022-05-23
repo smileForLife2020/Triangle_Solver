@@ -1,6 +1,6 @@
 //stating the global variables
 var w = screen.width; //the screen width
-var h = screen.height - 40; //the screen height with some give for the tab
+var h = screen.height - screen.height/150; //the screen height with some give for the tab
 
 function setup() {
   createCanvas(w, h);
